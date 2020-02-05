@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vitalijugnivenko/Downloads/Skip-List-master/SkipList/atomic_markable_reference.hpp
+atomic
+-
+iostream
+-
+random
+-
+vector
+-
+
+/Users/vitalijugnivenko/Downloads/Skip-List-master/SkipList/main.cpp
+skiplist.hpp
+/Users/vitalijugnivenko/Downloads/Skip-List-master/SkipList/skiplist.hpp
+pthread.h
+-
+
+/Users/vitalijugnivenko/Downloads/Skip-List-master/SkipList/skiplist.hpp
+atomic_markable_reference.hpp
+/Users/vitalijugnivenko/Downloads/Skip-List-master/SkipList/atomic_markable_reference.hpp
+
