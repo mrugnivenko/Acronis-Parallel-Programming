@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vitalijugnivenko/Downloads/Matrix/blockmatr.hpp
+iostream
+-
+
+/Users/vitalijugnivenko/Downloads/Matrix/main.cpp
+stdio.h
+-
+blockmatr.hpp
+/Users/vitalijugnivenko/Downloads/Matrix/blockmatr.hpp
+string
+-
+x86intrin.h
+-
+
